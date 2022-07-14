@@ -1,0 +1,26 @@
+
+*{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.fondo-verde{
+    background-color: green;
+}
+
+i{
+   float: left;
+}
+section{
+    background-color: green;
+}
+form{
+    text-align: center;
+    padding: 20px
+}
+footer{text-align: center;
+}
+.float{
+    float:right
+}
+main{
+    margin-top: 2em;
+}
