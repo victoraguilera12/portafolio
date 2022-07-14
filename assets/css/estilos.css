@@ -1,26 +1,72 @@
 
-*{
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-.fondo-verde{
-    background-color: green;
-}
-
-i{
-   float: left;
-}
-section{
-    background-color: green;
-}
-form{
+.nav-custom {
+    position: relative;
+    padding: 1em;
+  }
+  
+  .nav__pointer {
+    z-index: 1;
+    position: absolute;
+    top: 0.6em;
+    left: 1em;
+    background-color: #bada55;
+    height: 1.8em;
+    transition: transform 0.25s ease-in-out;
+    border-radius: 0.3em;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+  
+  .nav__list {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Decoration styles */
+  
+  body,
+  html {
+    height: 100vh;
+    min-height: 320px;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  nav {
     text-align: center;
-    padding: 20px
-}
-footer{text-align: center;
-}
-.float{
-    float:right
-}
-main{
-    margin-top: 2em;
-}
+    width: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    display: block;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    user-select: none;
+  }
+  
+  a,
+  a:visited {
+    color: #1d1d1d;
+  }
+  /* .header{
+    background-image: url(/assets/img/hombre-libre-71282410.jpg);
+  background-position: initial;
+  
+  
+  } */
+
