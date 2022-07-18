@@ -63,10 +63,81 @@
   a:visited {
     color: #1d1d1d;
   }
-  /* .header{
-    background-image: url(/assets/img/hombre-libre-71282410.jpg);
-  background-position: initial;
-  
-  
-  } */
 
+body, html{
+  height: 100%;
+  background-color: rgb(196, 192, 192);
+ 
+}
+
+
+
+.cstiker{
+  width:120px;
+  height:120px;
+}
+.projectile{
+  margin-bottom:20px;
+  background-color:grey;
+  margin-right:9%;
+  margin-left:1%;
+  border-radius:5px;
+  color:white;
+}
+.contacttile{
+  margin-bottom:20px;
+  background-color:grey;
+  margin-right:8%;
+  margin-left:6%;
+  border-radius:5px;
+  color:white;
+}
+.tittle1{
+  color:black;
+  font-size:3em;
+  font-family: 'Merriweather';
+}
+#mynavbaritem{
+  margin-top:15px;
+  position: relative; 
+  padding-left:30px;
+  border-radius:5px;
+  
+}
+
+
+
+  
+
+
+
+.nav{
+  background-color:gray;
+  text-align:center;
+}
+.text{
+  color:white;
+}
+
+ 
+
+.portafolio{
+  margin-top:30px;
+  margin-left:5%;
+  margin-right:5%;
+
+  
+}
+.grid{
+  align-content: flex-end;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.card-title{
+  text-align: center;
+}
+
+.btn{
+  flex: center;
+}
