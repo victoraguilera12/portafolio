@@ -18,19 +18,14 @@
 <main>
 
   
-  <!-- <div class="video-bg">
-    <video width="320" height="240" autoplay loop muted>
-     <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-   </video>
-   </div> -->
+ 
     <nav class="nav-custom" id="js-nav">
       <div id="js-pointer" class="nav__pointer"></div>
       <ul class="nav__list">
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">Tasks</a></li>
-        <li><a href="#">Steps</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#">Sobre Mi</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contactos</a></li>
+        <li><a href="pag2.html">Inicio</a></li>
       </ul>
     </nav>
     <header class="header">
@@ -38,65 +33,126 @@
     </header>
     <body>
       
-      <div class="portafolio ">
-        <div class="projectile text-center">
-          <a name="portafoliogrid" class="tittle1 ">PROJECTS</a>
+      <div class="container">
+        <div class="row p-3 my-2 justify-content-center projectile">
+          <h1>Proyectos 👨‍💻</h1>
+        </div>
+      </div>
+
+        <!---- card de proyectos---->
+        <div class="container">
+          <div class="row">
+
+            <div class="card col-12 col-md-6 mt-3" >
+              <img src="assets/img/desafio1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Desafio HTML5</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://victoraguilera12.github.io/desafio1/" class="btn btn-primary">revisar aquí</a>
+              </div>
+            </div>
+            <div class="card col-12 col-md-6 mt-3"  >
+              <img src="assets/img/desafio2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desafio CSS</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://victoraguilera12.github.io/desafio2/" class="btn btn-primary">revisar aquí</a>
+              </div>
+            </div>
+            <div class="card col-12 col-md-6 mt-3" >
+              <img src="assets/img/desafio3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desafio landing page</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://victoraguilera12.github.io/desafio3/" class="btn btn-primary">revisar aquí</a>
+              </div>
+            </div>
+            <div class="card col-12 col-md-6 mt-3" >
+              <img src="assets/img/desafio4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desafio Bootstrap</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://victoraguilera12.github.io/desafio4/" class="btn btn-primary">revisar aquí</a>
+              </div>
+            </div>
           </div>
         </div>
-        
-        <!-- First Photo Grid-->
-        <div class=" grid row">
-          <div class="col-5 mt-3" >
-            <img src="assets/img/desafio1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title ">Desafio HTML5</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://victoraguilera12.github.io/desafio1/" class="btn btn-primary">revisar aquí</a>
+ <!---- Formulario---->
+        <div class="container">
+         
+          <div class="row">
+            <div class="container">
+              <div class="row p-3 my-2 justify-content-center projectile">
+                <h1>Contacto 📨</h1>
+              </div>
             </div>
+            <section >
+              <div class="mb-3 justify-content-center">
+                <h2>Deja tu apreciación</h2>
+                <label for="exampleFormControlInput1" class="form-label justify-content-center">ingresa tu e-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">ingresa tu comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+  
+             </section>
+  
+          
           </div>
-          <div class="col-5 mt-3"  >
-            <img src="assets/img/desafio2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desafio CSS</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://victoraguilera12.github.io/desafio2/" class="btn btn-primary">revisar aquí</a>
-            </div>
-          </div>
-          <div class="col-5 mt-3" >
-            <img src="assets/img/desafio3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desafio landing page</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://victoraguilera12.github.io/desafio3/" class="btn btn-primary">revisar aquí</a>
-            </div>
-          </div>
-          <div class="col-5 mt-3" >
-            <img src="assets/img/desafio4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desafio Bootstrap</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://victoraguilera12.github.io/desafio4/" class="btn btn-primary">revisar aquí</a>
-            </div>
-          </div>
-           <section class="formulario">
-            <div class="mb-3 justify-content-center">
-              <h2>dejame tu apreciacion</h2>
-              <label for="exampleFormControlInput1" class="form-label justify-content-center">ingresa tu e-mail</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">ingresa tu comentario</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+        </div>
+               
+        <div class="container">
+         
+          <div class="row">
+            <!-- <"proyectos forkeados"> -->
+              <div class="row p-3 my-2 justify-content-center ">
+                <h1>Proyectos Forkeados </h1>
+              </div>
+              <section class="img">
+               <a href="https://github.com/iperezsidgmann/iperezsidgmann.github.io"> <img src="assets/img/fork1.png" class="rounded float-start" alt=""></a>
+               <a href="https://github.com/Kathe-hub/kathe-hub.github.io"> <img src="assets/img/fork2.png" class="rounded float-start" alt=""></a>
+              </section>
+              
 
-           </section>
+             
+            
 
         
+        
+        
+        
+        <!---- footer---->
 
-
-
-
-
+        <footer>
+          <div id="contact" class="container">
+            <div class="row">
+              <div class="col-md-4 pt-5">
+                <h2 class="footer-title">Sigueme en📱</h2>
+              </div>
+              <div class="col-md-4 p-1">
+                <ul>
+                  <li>
+                    <span class="icon"><i class="fa-brands fa-linkedin fa-2x"></i></span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/feed/">LinkedIn</a>
+                  </li>
+                  <li>
+                    <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/home?lang=eshttps://twitter.com/home?lang=es">Twitter</a>
+                  </li>
+                  <li>
+                    <span class="icon"><i class="fa-solid fa-earth-americas fa-2x"></i></span>
+                    <a target="_blank" rel="noopener noreferrer" href="#contact">Website</a>
+                  </li>
+                </ul>
+              </div>
+              
+              <br>
+              <p class="copyright pt-4">victor aguilera © all rights reserved.</p>
+            </div>
+          </div>
+        </footer>
 
 
 
